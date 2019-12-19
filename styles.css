@@ -1,0 +1,56 @@
+:root {
+  --text-color: #626262;
+  --text-transformation: #03a9f4;
+  --font-family: "Playfair Display", serif;
+  --list-color: #b4ad9e;
+}
+
+.menu-list {
+  text-decoration: none;
+  color: var(--text-color);
+  font-family: var(--font-family);
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.menu-list:focus,
+.menu-list:hover {
+  color: var(--text-transformation);
+}
+
+/*Переходим к body*/
+
+.list-1 {
+  color: var(--list-color);
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.paragraph-title {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.paragraph {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.button {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: 30px;
+  line-height: 1.7;
+}
